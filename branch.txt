@@ -1,0 +1,8 @@
+git switch -c newreponame
+git branch
+git commit -a -m "newrop fix"
+git merge newreponame
+git branch
+git commit -a -m "merged newrepo to oldrepo"
+git switch main
+git branch -d newreponame

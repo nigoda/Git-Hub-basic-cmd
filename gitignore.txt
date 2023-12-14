@@ -1,0 +1,5 @@
+touch .gitignore
+   - *.pdf
+git add .
+git commit -a -m "added gitignore"
+git push -u origin main
